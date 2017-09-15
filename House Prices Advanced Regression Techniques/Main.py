@@ -54,7 +54,3 @@ if __name__ == '__main__':
     predicted_3 = elastic.predict(test_final)
     result_3 = pd.DataFrame({'Id': test['Id'].as_matrix(), 'SalePrice': np.expm1(predicted_3)})
     result_3.to_csv("./output/elasticNet_model.csv", index=False)
-
-
-
-

@@ -268,9 +268,3 @@ def elasticNet_model(data, y):
     plt.show()
 
     return elasticNet
-
-
-
-
-
-
